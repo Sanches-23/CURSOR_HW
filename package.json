@@ -1,0 +1,30 @@
+{
+  "name": "cursor_hw",
+  "version": "1.0.0",
+  "description": "cursor homework",
+  "main": "",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanches-23/CURSOR_HW.git"
+  },
+  "keywords": [
+    "CURSOR",
+    "homework",
+    "hm",
+    "Sanches-23"
+  ],
+  "author": "Sanches-23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanches-23/CURSOR_HW/issues"
+  },
+  "homepage": "https://github.com/Sanches-23/CURSOR_HW#readme",
+  "dependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
