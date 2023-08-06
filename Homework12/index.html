@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="styleSheet.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="btn-nav" id="get-filmsChar" type="submit">Отримати інформацію</button>
+            <input class="btn-nav" id="filmId" type="text" placeholder="Введіть фільм від 1 до 6">
+            <button class="btn-nav" id="get-planets">Всі планети</button>
+            <label class="switch">
+                <input id="translate" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </nav>
+    </header>
+<!---------------------------------->
+    <div class="background-main"></div>
+    <div class="mainContainer">
+        <div id="content" class="item">
+            <!--     генерація    -->
+        </div>
+        <div class="planet-section">
+            <div id="content-planets" class="content-planets">
+                <!--     генерація2    -->
+            </div>
+            <div class="btn"> <!--content-planets-->
+                <button id="get-planets-previous" type="button" style="display: none">Назад</button>
+                <button id="get-planets-next" type="button" style="display: none">Далі</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
