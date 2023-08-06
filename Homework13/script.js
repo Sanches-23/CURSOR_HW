@@ -18,10 +18,10 @@ function* newFontGenerator(fontSizeValue) {
     while (true) {
         const direction = yield fontSizeValue;
         if (direction === "up"){
-            console.log(direction)
+            // console.log(direction)
             fontSizeValue += 2;
         } else {
-            console.log(direction)
+            // console.log(direction)
             fontSizeValue -= 2;
         }
         console.log(`Шрифт: ${fontSizeValue}px`);
